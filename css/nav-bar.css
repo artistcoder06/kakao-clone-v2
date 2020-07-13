@@ -24,11 +24,11 @@
 
 .nav .nav__badge{
     position: absolute;
-    top: -7px;
-    right: -7px;
+    top: -8x;
+    right: -8px;
     font-size: 10px;
     color: white;
-    background-color: #dc5d46;
+    background-color: #b14b39;
     width: 18px;
     height: 18px;
     display: flex;
