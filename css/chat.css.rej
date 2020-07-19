@@ -1,0 +1,24 @@
+diff a/css/chat.css b/css/chat.css	(rejected hunks)
+@@ -104,4 +104,21 @@
+             rgba(0, 0, 0, 0.025);
+   padding: 10px 20px;
+   border-radius: 20px;
++}
++
++.incoming-message .message__author{
++  margin-bottom: 10px;
++  display: block;
++  font-weight: 600;
++  font-size: 12px;
++}
++
++.incoming-message .message__bubble{
++  border-bottom-left-radius: 0px;
++  margin-bottom: 0px;
++
++}
++
++.sent-message .message__bubble{
++  border-bottom-right-radius: 0px;
+ }
+\ No newline at end of file
