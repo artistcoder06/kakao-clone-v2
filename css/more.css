@@ -1,5 +1,5 @@
 .more .more__btn-list,
-.more .suggestion{
+.more .more__suggestions-list {
     margin: 30px 0px;
     margin-left: 10px;
     display: flex;
@@ -7,7 +7,7 @@
 }
 
 .more__btn-list .more__btn,
-.more .suggestion{
+.more .suggestion {
     margin-right: 40px;
     display: flex;
     flex-direction: column; 
@@ -15,27 +15,27 @@
     cursor: pointer;
 }
 
-.more__btn .more__btn-title{
+.more__btn .more__btn-title {
     font-size: 14px;
     margin-top: 15px;
 }
 
-.more .more__suggestions{
-    border-top: 1px  solid #f7f7f7;
+.more .more__suggestions {
+    border-top: 1px solid #f7f7f7;
     padding-top: 20px;
 }
 
-.more .more__title{
+.more .more__title {
     opacity: 0.8;
     margin-bottom: 20px;
 }
 
-.suggestion .suggestion__title{
+.suggestion .suggestion__title {
     font-size: 12px;
     margin-top: 15px;   
 }
 
-.suggestion .suggestion__icon{
+.suggestion .suggestion__icon {
     background-color: #fce006;
     padding: 10px;
     display: flex;
@@ -44,7 +44,7 @@
     border-radius: 10px;
 }
 
-.suggestion__icon i{
+.suggestion__icon i {
     font-size: 28px;
     color: white;
 }
